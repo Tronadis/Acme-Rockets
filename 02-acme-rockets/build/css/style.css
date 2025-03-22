@@ -575,6 +575,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .section-min-height {
+    min-height: calc(100vh - 68px);
+  }
   .w-1 {
     width: calc(var(--spacing) * 1);
   }
@@ -1036,6 +1039,11 @@
   .dark\:text-white {
     @media (prefers-color-scheme: dark) {
       color: var(--color-white);
+    }
+  }
+  .widescreen\:section-min-height {
+    @media screen and (min-aspect-ratio: 3/2) {
+      min-height: calc(100vh - 68px);
     }
   }
 }
