@@ -9,7 +9,7 @@
 }
 
 @custom-variant widescreen (@media screen and (min-aspect-ratio: 3/2));
-@custom-variant tallscreen (@media screen and (min-aspect-ratio: 13/20));
+@custom-variant tallscreen (@media screen and (max-aspect-ratio: 13/20));
 
 @theme {
 	--animate-open-menu: open-menu 0.5s ease-in-out forwards;

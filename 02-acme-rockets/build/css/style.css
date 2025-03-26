@@ -534,9 +534,6 @@
   .top-4 {
     top: calc(var(--spacing) * 4);
   }
-  .top-68 {
-    top: calc(var(--spacing) * 68);
-  }
   .z-10 {
     z-index: 10;
   }
@@ -1206,6 +1203,11 @@
   }
   .widescreen\:section-min-height {
     @media screen and (min-aspect-ratio: 3/2) {
+      min-height: calc(100vh - 68px);
+    }
+  }
+  .tallscreen\:section-min-height {
+    @media screen and (max-aspect-ratio: 13/20) {
       min-height: calc(100vh - 68px);
     }
   }
