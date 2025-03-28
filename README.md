@@ -15,4 +15,4 @@ In this project-based tutorial, Dave Gray gives us a very good introduction to t
 
 Dans ce cours fondé sur la pratique, Dave Gray nous introduit très bien au framework TailwindCSS, ainsi qu'à quelques bonnes pratiques de développement web, propulsant ainsi notre talent!
 
-![I'm flying away to the firmament! Je m'envole vers le firmament!](./02-acme-rockets/build/img/rocketride.png)
+![I'm flying away to the stars! Je m'envole vers les étoiles!](./build/img/rocketride.png)
